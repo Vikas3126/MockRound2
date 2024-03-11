@@ -1,7 +1,7 @@
 # API EndPoint
 API End Points:
 
-/user/register - for signing up
+<h2>/user/register - for signing up<h2></h2>
 /user/login - for logging in
 /api/flights-This endpoint should return a list of all available flights.
 /api/flights/:id-This endpoint  return the details of a specific flight identified by its ID.
