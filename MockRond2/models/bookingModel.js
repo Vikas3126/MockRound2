@@ -1,8 +1,8 @@
 const mongoose=require("mongoose");
 
 const bookingSchema=new mongoose.Schema({
-    user : { type: ObjectId, ref: 'User' },
-    flight : { type: ObjectId, ref: 'Flight' }
+    user : { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+    flight : { type: mongoose.Schema.Types.ObjectId, ref: 'Flight' }
 });
 
 const bookingModel=new mongoose.model("Booking",bookingSchema);

@@ -22,6 +22,6 @@ app.use("/api/dashboard",dashbaordRoutes);
 
 app.listen(8800,async()=>{
   
-   await db();
+   await db;
   console.log("server is running at port 8800")
 })
